@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <style>
+        body{
+            padding: 15px;
+            background: url("https://cdn.pixabay.com/photo/2019/04/10/11/56/watercolor-4116932_960_720.png");
+            background-repeat: no-repeat;
+            background-origin: content-box;
+        }
+        .submit2{
+            padding: 10px 50px;
+            background-color: #e7393f;
+            color: #fff;
+            border-radius: 8px;
+            border: none;
+            
+        }
+
+        .link{
+            text-decoration: none ;
+            color: white;
+        }
+
+        .fields{
+            padding: 15px 200px 15px 12px;
+            margin-bottom: 25px;
+            background-color: rgb(243,243,243);
+            border: none;
+        }
+        .input {
+            border: none;
+        }
+        .image{
+            background-image:url("undraw-contact.svg");
+            background-repeat: space;
+            background-origin: content-box;
+        }
+
+        .submit{
+            padding: 10px 40px;
+            background-color: #3252B1;
+            color: #fff;
+            border-radius: 8px;
+            border: none;
+        }
+        textarea {
+        resize: none;
+        }
+
+    </style>
+</head>
+<body>
+    <h3>Contact me</h3>
+    <div class="container">
+        <form class="forma" action="" method="get">
+            <div class="field">
+                <input class="fields" type="text" name="firstname" id="firstname" placeholder="Your name">
+            </div>
+            <div class="field"> 
+                <input class="fields" type="email" name="lastname" id="lasstname" placeholder="Email">
+            </div>
+            <div class="field">
+                <input class="fields" type="text" name="email" id="email" placeholder="Subject">
+            </div>
+            <div class="field">
+                <textarea class="fields" name="message" id="message" rows="10"  placeholder="Write your message"></textarea>
+            </div>
+            <button class="submit" type="submit">Send message</button>
+            <button class="submit2" type="submit"><a class="link" href="index.html">Back home</a></button>
+        </form>
+    </div>
+</body>
+</html>
